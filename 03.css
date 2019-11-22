@@ -1,5 +1,5 @@
 body {
-  padding: 40px;
+  /* padding: 40px; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -10,6 +10,7 @@ body {
   height: 100px;
   background: red;
   animation: change-color 3s ease infinite;
+  animation-delay: 1s;
 }
 body .box:nth-of-type(odd) {
   background: black;
